@@ -491,3 +491,67 @@
     padding-right: 0;
     border-right: none;
 }
+
+/* Shapes */
+
+.map-shape {
+    position: absolute;
+    z-index: -1;
+}
+
+.map-shape.map-shape-vertical-center {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.map-shape.map-shape-1 {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.map-shape.map-shape-top {
+    top: 475px;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.map-shape.map-shape-2 {
+    top: 880px;
+    right: 0;
+}
+
+.map-shape.map-shape-3 {
+    top: 1580px;
+    right: 0;
+}
+
+.map-shape .map-shape-4{
+    top: 1575px;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.map-shape.map-shape-5 {
+    top: 1780px;
+    right: 0;
+}
+
+.map-shape .map-shape-6{
+    top: 1775px;
+    -webkit-transform: none;
+    transform: none;
+}
+
+.map-shape.map-shape-7 {
+    top: 3780px;
+    right: 0;
+}
+
+.map-shape .map-shape-8 {
+    top: 2075px;
+    -webkit-transform: none;
+    transform: none;
+}
