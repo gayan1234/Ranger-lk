@@ -234,9 +234,18 @@
 
 
 /*** Service ***/
+.servise-bg {
+    background: url(../img/home-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
+    background: white;
 }
 
 .service-item:hover {
