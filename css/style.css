@@ -417,6 +417,15 @@
 }
 
 
+/* About Page */
+.table-group-divider ul li {
+    list-style: none;
+}
+
+.table-group-divider th {
+    width: 300px;
+}
+
 /*** Footer ***/
 .footer .btn.btn-social {
     margin-right: 5px;
