@@ -555,3 +555,8 @@
     -webkit-transform: none;
     transform: none;
 }
+
+.map-shape img {
+    max-width: 100%;
+    height: auto;
+}
